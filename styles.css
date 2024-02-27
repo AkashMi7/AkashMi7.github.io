@@ -111,3 +111,14 @@ h1, h2, h3, h4, h5, h6 {
   flex: 1;
   margin-right: 20px;
 }
+
+@media (max-width: 768px) {
+  .container {
+    flex-direction: column;
+  }
+
+  .column {
+    margin-right: 0;
+    margin-bottom: 20px;
+  }
+}
