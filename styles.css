@@ -101,6 +101,7 @@ h1, h2, h3, h4, h5, h6 {
   background: linear-gradient(to right, #00ccff, #ffffff);
   -webkit-background-clip: text;
   background-clip: text;
+  text-shadow: 2px 2px 4px rgba(0, 238, 255, 0.5);
   -webkit-text-fill-color: transparent;
 }
 .container {
@@ -112,6 +113,7 @@ h1, h2, h3, h4, h5, h6 {
   margin-right: 20px;
 }
 
+/* Apply styles for mobile devices */
 @media (max-width: 768px) {
   .container {
     flex-direction: column;
