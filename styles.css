@@ -1,0 +1,113 @@
+body {
+  font-family: Fira Code, Fira Code lite;
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+}
+
+.containers {
+  width: 80%;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+header {
+  background-image: url('a.jpg');
+  vertical-align: 'middle';
+  padding: 20px 0;
+}
+
+header h1 {
+  color: #00ccff;
+  margin: 0;
+  font-size: 32px;
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+nav ul li {
+  display: inline;
+  margin-right: 20px;
+}
+
+nav ul li a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 18px;
+}
+
+section {
+  padding: 100px 0;
+  position: relative;
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+  overflow: hidden;
+  color: #fff;
+}
+
+.parallax {
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+#about {
+  background-image: url('a.jpg'); /* Adjust the path to your image */
+}
+
+#projects {
+  background-image: url('b.jpg'); /* Adjust the path to your image */
+}
+
+#contact {
+  background-image: url('a.jpg'); /* Adjust the path to your image */
+}
+
+h2 {
+  color: #00ccff;
+  font-size: 36px;
+  margin-bottom: 20px;
+}
+h4 {
+  color: #00ccff;
+  font-size: 36px;
+  margin-bottom: 20px;
+}
+
+.project h3 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+footer {
+  background-color: #002129;
+  color: #007d9c;
+  text-align: center;
+  padding: 10px 0;
+  position: relative;
+  bottom: 0;
+  width: 100%;
+}
+a {
+  color: #00ccff; /* Change this to your preferred color */
+}
+h1, h2, h3, h4, h5, h6 {
+  background: linear-gradient(to right, #00ccff, #ffffff);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.container {
+  display: flex;
+}
+
+.column {
+  flex: 1;
+  margin-right: 20px;
+}
